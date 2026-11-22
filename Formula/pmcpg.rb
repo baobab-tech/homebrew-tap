@@ -1,28 +1,28 @@
 class Pmcpg < Formula
   desc "Private MCP Gateway: local-first gateway between AI clients and MCP servers"
   homepage "https://github.com/baobab-tech/pMCPg"
-  version "0.1.4"
+  version "0.1.5"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/baobab-tech/pMCPg/releases/download/v0.1.4/pmcpg-0.1.4-darwin-arm64.tar.gz"
-      sha256 "d833e70c273eaf8665ca6cb586dd94c5f6a8a6a6b2b158dd2de9ea239e98db7a"
+      url "https://github.com/baobab-tech/pMCPg/releases/download/v0.1.5/pmcpg-0.1.5-darwin-arm64.tar.gz"
+      sha256 "0869381fce01f05755f62491596562b846bdf71294c0f4ca7d806fcef79523b8"
     end
     on_intel do
-      url "https://github.com/baobab-tech/pMCPg/releases/download/v0.1.4/pmcpg-0.1.4-darwin-x64.tar.gz"
-      sha256 "a33efa7d451617896ccaed868d9166fd54e8193c342cf7e129633bb9055ad961"
+      url "https://github.com/baobab-tech/pMCPg/releases/download/v0.1.5/pmcpg-0.1.5-darwin-x64.tar.gz"
+      sha256 "6e14fe64468bdbb3f3a743f2ee8e78494b23b1db44d0585eaf007fcc1d3be937"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/baobab-tech/pMCPg/releases/download/v0.1.4/pmcpg-0.1.4-linux-arm64.tar.gz"
-      sha256 "d9dc687ce330f6ceb9263188bb095fdfe0aef81cf6461525302e3d4a9c358d9a"
+      url "https://github.com/baobab-tech/pMCPg/releases/download/v0.1.5/pmcpg-0.1.5-linux-arm64.tar.gz"
+      sha256 "8cb6df614ba674fd9a67b67ab02799eb4ede567d840592818b180520aa037590"
     end
     on_intel do
-      url "https://github.com/baobab-tech/pMCPg/releases/download/v0.1.4/pmcpg-0.1.4-linux-x64.tar.gz"
-      sha256 "0019bdb760ddf6fe8b5f85d0be9f6ea6a0d4c48201aa3bdd7021e0f7b297b6ef"
+      url "https://github.com/baobab-tech/pMCPg/releases/download/v0.1.5/pmcpg-0.1.5-linux-x64.tar.gz"
+      sha256 "776c9f9d7d369f45aa6a832e114c24c4d33d68c16e55595cfdf98d36875fa3e7"
     end
   end
 
